@@ -90,6 +90,12 @@ article {
 #cliff {
     width: 100%;
     border: solid 1px darkred;
+    margin-top: 2%;
+}
+
+#Rating {
+    font-family: Georgia,"Times New Roman",serif;
+    font-size: 1rem;
 }
 
 #footnote {
