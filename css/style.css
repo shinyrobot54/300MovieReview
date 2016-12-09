@@ -1,9 +1,7 @@
 html {
     line-height: 1.4;
-}
-
-body {
-    line-height: 1;
+    font-size: 2.5vh;
+    color: #222;
 }
 
 p {
@@ -44,15 +42,22 @@ html {
     background-image: linear-gradient(darkred, black);
 }
 
-body {
-    line-height: 1;
+article {
     padding: 2.5%;
+    padding-top: 1%;
     background: white;
     margin: 5% 5% 5% 5%;
     border: solid 3px black;
+    max-width: 100%;
 }
 
-#bigT {
+#date {
+    font-size: .9rem;
+    font-weight: bold;
+    color: grey;
+}
+
+#mainArticle :first-child::first-letter {
     border: solid 2px darkred;
     background-size: cover;
     float: left;
@@ -64,6 +69,10 @@ body {
     background-image: url(../images/tree-of-death.jpg);
 }
 
+#mainArticle :first-child::first-line {
+    font-variant: small-caps;
+}
+
 #comparison {
     float: right;
     width: 60%;
@@ -71,8 +80,27 @@ body {
 
 #xerxes {
     float: left;
+    margin-right: 5px;
 }
 
 #movieName {
     color: red;
+}
+
+#cliff {
+    width: 100%;
+    border: solid 1px darkred;
+}
+
+#footnote {
+    font-size: .75rem;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
